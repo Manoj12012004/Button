@@ -10,6 +10,7 @@ function App() {
     <Button type="secondary" onClick={() => alert('Secondary Button clicked!')}>
       Secondary Button
     </Button>
+    <Button disabled>Disabled Button</Button>
     </div>
   );
 }
